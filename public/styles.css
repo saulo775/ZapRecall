@@ -1,38 +1,43 @@
-.container{
-    display: flex;
+.container {
     max-width: 40rem;
     background-color: var(--primary);
 }
 
 /*===TELA DE BOAS VINDAS===*/
-.screenWelcome {
+/*===TELA DE BOAS VINDAS===*/
+/*===TELA DE BOAS VINDAS===*/
+.screen-welcome {
     flex: 1;
-    display: flex;
+    display: none;
     height: 100vh;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.screenWelcome .logoInitial {
+.screen-welcome.active{
+    display: flex;
+}
+
+.screen-welcome .logo-initial {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.screenWelcome .logoInitial img {
+.screen-welcome .logo-initial img {
     width: 8.5rem;
     height: 10rem;
 }
 
-.screenWelcome .logoInitial h1 {
+.screen-welcome .logo-initial h1 {
     font-size: 2.25rem;
     line-height: 2rem;
     color: var(--text-white);
     margin: 0.75rem 0 2rem
 }
 
-.screenWelcome button{
+.screen-welcome button{
     padding: 1rem 3rem;
     border-radius: 0.25rem;
     color: var(--red-details);
@@ -40,3 +45,50 @@
     line-height: 1rem;
     border: 2px solid var(--red-details);
 }
+
+
+/*===TELA HOME===*/
+/*===TELA HOME===*/
+/*===TELA HOME===*/
+
+.container-home {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100vh;
+    z-index: 2;
+}
+
+.container-home header{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 2.5rem;
+    gap: 1rem;
+}
+
+.container-home header img {
+    width: 3.5rem;
+    height: 3.75rem;
+}
+
+.container-home header h1 {
+    font-size: 2.25rem;
+    color: var(--text-white);
+}
+
+.container-home footer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 1rem;
+    background-color: var(--shape);
+}
+
+.container-home footer p{
+    font-size: 1.1rem;
+}
+

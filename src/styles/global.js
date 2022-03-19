@@ -7,7 +7,7 @@ export const GlobalStyle = createGlobalStyle`
         --primary: #FB6B6B;
 
         --red-details: #D70900;
-        --yellow: #FFFFD5
+        --yellow: #FFFFD5;
         --shape: #FFFFFF;
         --wrong-answer: #FF3030;
         --reasonable-answer: #FF922E;

@@ -1,7 +1,7 @@
-import { Route, Routes } from 'react-router-dom';
 import { GlobalStyle } from './styles/global';
 
-import { Welcome } from './components/Welcome';
+import { Welcome } from './screens/Welcome';
+import { Home } from './screens/Home';
 
 function App() {
   return (
@@ -9,6 +9,7 @@ function App() {
       <GlobalStyle/>
       <main className='container'>
         <Welcome/>
+        <Home/>
       </main>
     </>
   );

@@ -2,8 +2,8 @@ import React from "react";
 
 export function Welcome() {
     return (
-        <section className="screenWelcome">
-            <div className="logoInitial">
+        <section className="screen-welcome">
+            <div className="logo-initial">
                 <img src="./assets/logo.svg"/>
                 <h1>Zap Recall</h1>
             </div>
