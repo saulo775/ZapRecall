@@ -7,10 +7,9 @@ function App() {
   return (
     <>
       <GlobalStyle/>
-
-      <Routes>
-        <Route path='/' element={<Welcome/>}/>
-      </Routes>
+      <main className='container'>
+        <Welcome/>
+      </main>
     </>
   );
 }

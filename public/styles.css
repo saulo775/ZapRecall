@@ -1,13 +1,17 @@
+.container{
+    display: flex;
+    max-width: 40rem;
+    background-color: var(--primary);
+}
+
+/*===TELA DE BOAS VINDAS===*/
 .screenWelcome {
     flex: 1;
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    max-width: 40rem;
     height: 100vh;
-    background-color: var(--primary);
-    padding: 2rem 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .screenWelcome .logoInitial {
@@ -17,21 +21,22 @@
 }
 
 .screenWelcome .logoInitial img {
-    width: 3.5rem;
-    height: 4rem;
+    width: 8.5rem;
+    height: 10rem;
 }
 
 .screenWelcome .logoInitial h1 {
-    font-size: 1.6rem;
+    font-size: 2.25rem;
     line-height: 2rem;
     color: var(--text-white);
+    margin: 0.75rem 0 2rem
 }
 
 .screenWelcome button{
-    padding: 0.5rem 2rem;
+    padding: 1rem 3rem;
     border-radius: 0.25rem;
     color: var(--red-details);
-    font-size: 0.75rem;
+    font-size: 1.25rem;
     line-height: 1rem;
     border: 2px solid var(--red-details);
 }
