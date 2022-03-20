@@ -82,13 +82,67 @@
 
 .container-home footer{
     display: flex;
+    flex-direction: column;
     width: 100%;
     justify-content: center;
+    align-items: center;
     padding: 1rem;
     background-color: var(--shape);
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: var(--text-black);
+}
+
+footer .visual-result {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+footer .visual-result img {
+    width: 1.5rem;
+}
+
+footer .visual-result h2{
+    font-size: 1.1rem;
+    font-weight: bold;
 }
 
 .container-home footer p{
     font-size: 1.1rem;
+    text-align: center;
 }
 
+.container-home footer h3{
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+
+.container-home ion-icon {
+    font-size: 1.5rem;
+}
+
+.container-home ion-icon[name="close-circle"]{
+    color: var(--wrong-answer);
+}
+
+.container-home ion-icon[name="help-circle"]{
+    color: var(--reasonable-answer);
+}
+
+.container-home ion-icon[name="checkmark-circle"]{
+    color: var(--correct-answer);
+}
+
+
+
+
+@media screen and (max-width: 330px) {
+    .container-home header {
+        flex-direction: column;
+        text-align: center;
+    }
+}

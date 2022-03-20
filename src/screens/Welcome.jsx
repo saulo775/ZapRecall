@@ -4,7 +4,7 @@ export function Welcome() {
     return (
         <section className="screen-welcome">
             <div className="logo-initial">
-                <img src="./assets/logo.svg"/>
+                <img src="./assets/logo.svg" alt="logo"/>
                 <h1>Zap Recall</h1>
             </div>
 
