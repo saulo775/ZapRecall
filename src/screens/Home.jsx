@@ -1,4 +1,5 @@
 import React from "react";
+import { Card } from "../components/Card";
 
 export function Home() {
     return (
@@ -7,6 +8,9 @@ export function Home() {
                 <img src="/assets/logo.svg" alt="logo" />
                 <h1>Zap Recall</h1>
             </header>
+            <section className="deck">
+                <Card/>
+            </section>
             <footer>
                 <div className="visual-result">
                     <img src="/assets/sad.svg" alt="" />

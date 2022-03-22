@@ -1,51 +1,8 @@
 .container {
     max-width: 40rem;
+    height: 100%;
     background-color: var(--primary);
 }
-
-/*===TELA DE BOAS VINDAS===*/
-/*===TELA DE BOAS VINDAS===*/
-/*===TELA DE BOAS VINDAS===*/
-.screen-welcome {
-    flex: 1;
-    display: none;
-    height: 100vh;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.screen-welcome.active{
-    display: flex;
-}
-
-.screen-welcome .logo-initial {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.screen-welcome .logo-initial img {
-    width: 8.5rem;
-    height: 10rem;
-}
-
-.screen-welcome .logo-initial h1 {
-    font-size: 2.25rem;
-    line-height: 2rem;
-    color: var(--text-white);
-    margin: 0.75rem 0 2rem
-}
-
-.screen-welcome button{
-    padding: 1rem 3rem;
-    border-radius: 0.25rem;
-    color: var(--red-details);
-    font-size: 1.25rem;
-    line-height: 1rem;
-    border: 2px solid var(--red-details);
-}
-
 
 /*===TELA HOME===*/
 /*===TELA HOME===*/
@@ -80,6 +37,16 @@
     color: var(--text-white);
 }
 
+.container-home .deck {
+    flex: 1;
+    display: flex;
+    gap: 1.5rem;
+    width: 100%;
+    padding: 0 1rem;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+
 .container-home footer{
     display: flex;
     flex-direction: column;
@@ -91,6 +58,7 @@
     font-size: 1.1rem;
     font-weight: 400;
     color: var(--text-black);
+    margin-top: 1rem;
 }
 
 footer .visual-result {
@@ -137,6 +105,33 @@ footer .visual-result h2{
     color: var(--correct-answer);
 }
 
+.container-card {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 1rem;
+    background-color: var(--shape);
+    border-radius: 0.5rem;
+    align-items: center;
+    color: var(--text-black);
+}
+
+
+.container-card p {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.container-card .flashcard {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.disable {
+    display: none;
+}
 
 
 
