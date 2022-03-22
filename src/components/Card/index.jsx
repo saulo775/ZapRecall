@@ -1,10 +1,13 @@
 import React from "react";
+import "./styles.css";
 
-export function Card(){
+export function Card({frente, verso, index}){
+    let indexx = index;
     return (
         <div className="container-card">
-            <div className="flashcard wrong">
-                <p>Pergunta 1</p>
+            
+            <div className="flashcard">
+                <p>Pergunta {index + 1}</p>
                 <ion-icon name="play-outline"></ion-icon>
             </div>
 

@@ -1,0 +1,18 @@
+.container-card .flashcard {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-card .flashcard-question {
+    min-height: 8rem;
+    justify-content: space-between;
+} 
+
+
+
+
+.container-card .disable {
+    display: none;
+}

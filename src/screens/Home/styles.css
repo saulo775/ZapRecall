@@ -1,0 +1,110 @@
+.container-home {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 95vh;
+    z-index: 2;
+}
+
+.container-home header{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 2.5rem;
+    gap: 1rem;
+}
+
+.container-home header img {
+    width: 3.5rem;
+    height: 3.75rem;
+}
+
+.container-home header h1 {
+    font-size: 2.25rem;
+    color: var(--text-white);
+}
+
+.container-home .deck {
+    flex: 1;
+    display: flex;
+    gap: 1.5rem;
+    width: 100%;
+    padding: 0 1rem;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+
+.container-home footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--shape);
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: var(--text-black);
+    margin-top: 1rem;
+}
+
+footer .visual-result {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+footer .visual-result img {
+    width: 1.5rem;
+}
+
+footer .visual-result h2{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.container-home footer p{
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.container-home footer h3{
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+
+.container-home ion-icon {
+    font-size: 1.5rem;
+}
+
+
+
+.container-card {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 1rem;
+    background-color: var(--shape);
+    border-radius: 0.5rem;
+    align-items: center;
+    color: var(--text-black);
+}
+
+
+.container-card p {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+
+@media screen and (max-width: 330px) {
+    .container-home header {
+        flex-direction: column;
+        text-align: center;
+    }
+}

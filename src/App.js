@@ -1,7 +1,7 @@
 import { GlobalStyle } from './styles/global';
-
-import { Welcome } from './screens/Welcome/Welcome';
 import React from 'react';
+
+import { Welcome } from './screens/Welcome';
 import { Home } from './screens/Home';
 
 function App() {

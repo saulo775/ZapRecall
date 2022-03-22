@@ -55,4 +55,16 @@ export const GlobalStyle = createGlobalStyle`
         opacity: 0.6;
         cursor: not-allowed;
     }
+
+    ion-icon[name="close-circle"]{
+    color: var(--wrong-answer);
+}
+
+    ion-icon[name="help-circle"]{
+        color: var(--reasonable-answer);
+    }
+
+    ion-icon[name="checkmark-circle"]{
+        color: var(--correct-answer);
+    }
 `;
